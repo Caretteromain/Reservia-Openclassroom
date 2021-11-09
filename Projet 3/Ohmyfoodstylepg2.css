@@ -1,0 +1,204 @@
+h3 {
+  border-bottom: 3px solid #99e2d0;
+  display: flex;
+  width: 3%;
+  font-family: "Roboto", sans-serif;
+  padding-bottom: 5px;
+  font-weight: lighter;
+  margin-left: 20px;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Shrikhand", sans-serif;
+  font-size: 30px;
+}
+
+.restaurantpicture {
+  border: 1px solid black;
+  height: 200px;
+  background-image: url(/Users/romaincarette/Desktop/Openclassroom/Projet3/MaquettesOhmyfood/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
+}
+
+img {
+  display: flex;
+  width: 100%;
+  object-fit: cover;
+  height: 300px;
+}
+
+#hidden {
+  visibility: hidden;
+}
+
+#returnarrow {
+  color: black;
+  margin-left: 20px;
+}
+
+/* SECTION */
+section {
+  background-color: rgb(245, 245, 245);
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+
+.sectiontitle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 95%;
+  margin: 20px auto;
+  font-size: 30px;
+}
+
+#subtitlerestaurant {
+  font-family: "Shrikhand", sans-serif;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+}
+
+.menubox {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  border-radius: 12px;
+  width: 30%;
+  margin: 0 auto;
+  box-shadow: 5px 15px 20px -3px rgb(224 220 220);
+}
+
+.menuboxcontain {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 0 auto;
+  width: 95%;
+  font-family: "Roboto", sans-serif;
+}
+
+.price {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.nameplate {
+  font-weight: bold;
+}
+
+.commandbutton {
+  border: 1px solid white;
+  border-radius: 40px;
+  padding: 20px;
+  background: linear-gradient(#ff79da, #9356dc);
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+  margin: 50px auto;
+  padding: 30px;
+}
+
+.Command {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.commandbutton:hover {
+  transform: scale(1);
+  transition-property: transform;
+  transition-duration: 400ms;
+  transform: scale(1.1);
+}
+
+/*FOOTER*/
+footer {
+  color: white;
+  background-color: rgb(32 30 30 / 94%);
+}
+
+.footersection {
+  margin-top: 20px;
+  margin-left: 20px;
+  height: 220px;
+}
+
+#h2footer {
+  font-family: "Shrikhand", sans-serif;
+  color: white;
+  padding-top: 20px;
+}
+
+.footercolumn {
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+.listfooter {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.footerparagraph {
+  color: white;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.fa-utensils {
+  margin-right: 12px;
+}
+
+.fa-hands-helping {
+  margin-right: 5px;
+}
+
+/* RESPONSIVE */
+/* Nouvelles règles si la fenêtre fait moins de 768px */
+@media screen and (max-width: 768px) {
+  .box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menubox {
+    width: 95%;
+    margin: 10px auto;
+  }
+}
+
+/* Nouvelles règles si la fenêtre fait moins de 425px */
+@media screen and (max-width: 425px) {
+  h3 {
+    width: 14%;
+  }
+
+  .title {
+    font-size: 15px;
+  }
+
+  #subtitlerestaurant {
+    font-size: 25px;
+  }
+
+  .commandbutton {
+    width: 50%;
+  }
+}
