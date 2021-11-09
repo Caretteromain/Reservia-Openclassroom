@@ -204,7 +204,7 @@ h2 {
 
   .navsinscrire {
     position: absolute;
-    margin-left: 325px;
+    margin-left: 335px;
     margin-top: -74px;
   }
 
@@ -223,7 +223,7 @@ h2 {
 @media screen and (max-width: 375px) {
   .navsinscrire {
     position: absolute;
-    margin-left: 275px;
+    margin-left: 285px;
     margin-top: -74px;
   }
 }
@@ -232,7 +232,7 @@ h2 {
 @media screen and (max-width: 320px) {
   .navsinscrire {
     position: absolute;
-    margin-left: 225px;
+    margin-left: 235px;
     margin-top: -74px;
   }
 }
